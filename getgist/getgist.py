@@ -116,6 +116,9 @@ class Gist(object):
     def __output(self, message):
         print('  {}'.format(message))
 
-if __name__ == '__main__':
+def main():
     gist = Gist()
     gist.save()
+
+if __name__ == '__main__':
+    main()
